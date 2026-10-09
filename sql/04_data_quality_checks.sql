@@ -1,4 +1,5 @@
 --Data quality checks
+
 --Business question: Is the data complete, and are there duplicate or inconsistent records?
 -- 1. Check missing customer names
 SELECT
