@@ -44,7 +44,6 @@ GROUP BY
 ORDER BY total_revenue DESC;
 
 --Query 4: Revenue by product category
-
 --Business question: Which product categories contribute the most revenue?
 SELECT
     p.category,
