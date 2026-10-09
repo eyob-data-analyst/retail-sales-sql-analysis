@@ -5,7 +5,6 @@ INSERT INTO customers VALUES
 ('C004', 'Meron Girma', 'Bahir Dar'),
 ('C005', 'Abel Kebede', 'Addis Ababa');
 
-------
 INSERT INTO products VALUES
 ('P001', 'Coffee Maker', 'Kitchen'),
 ('P002', 'Rice 5kg', 'Grocery'),
@@ -13,7 +12,6 @@ INSERT INTO products VALUES
 ('P004', 'Notebook', 'Stationery'),
 ('P005', 'Office Chair', 'Furniture');
 
--------
 INSERT INTO orders VALUES
 ('O1001', 'C001', '2026-01-05'),
 ('O1002', 'C002', '2026-01-12'),
@@ -24,7 +22,6 @@ INSERT INTO orders VALUES
 ('O1007', 'C005', '2026-03-10'),
 ('O1008', 'C003', '2026-03-18');
 
---------
 INSERT INTO order_items VALUES
 (10001, 'O1001', 'P001', 1, 1200.00),
 (10002, 'O1001', 'P004', 5,   80.00),
